@@ -20,7 +20,7 @@
                 <input type="tel" placeholder="Phone">
                 <input type="email" placeholder="Email">
             </div>
-            <div>Gender:
+            <div class="gender">Gender:
                 <input type="radio" id="male" name="gender">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender">
@@ -28,30 +28,91 @@
             </div>
             <hr>
             <div class="tech">Technologie
-                <div class="cols">
-                    <input type="checkbox" id="html">
-                    <label for="html">HTML</label>
-                    <input type="checkbox" id="css">
-                    <label for="css">CSS</label>   
-                    <input type="checkbox" id="javascript">
-                    <label for="javascript">Javascript</label>  
-                </div>
-                    <input type="checkbox" id="bootstrap">
-                    <label for="bootstrap">Bootstrap</label>
-                    <input type="checkbox" id="tailwind">
-                    <label for="tailwind">Tailwind</label>   
-                    <input type="checkbox" id="sass/scss">
-                    <label for="sass/scss">SASS/SCSS</label>  
-                    <input type="checkbox" id="react-js">
-                    <label for="react-js">React JS</label>
-                    <input type="checkbox" id="angular">
-                    <label for="angular">Angular</label>
-                    <input type="checkbox" id="vue-js">
-                    <label for="vue-js">Vue JS</label>    
+                <ul>
+                    <li>
+                        <input type="checkbox" id="html">
+                        <label for="html">HTML</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="css">
+                        <label for="css">CSS</label>   
+                    </li>
+                    <li>
+                        <input type="checkbox" id="javascript">
+                        <label for="javascript">Javascript</label>  
+                    </li>
+                    <li>
+                        <input type="checkbox" id="bootstrap">
+                        <label for="bootstrap">Bootstrap</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="tailwind">
+                        <label for="tailwind">Tailwind</label>   
+                    </li>
+                    <li>
+                        <input type="checkbox" id="sass/scss">
+                        <label for="sass/scss">SASS/SCSS</label>  
+                    </li>
+                    <li>
+                        <input type="checkbox" id="react-js">
+                        <label for="react-js">React JS</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="angular">
+                        <label for="angular">Angular</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="vue-js">
+                        <label for="vue-js">Vue JS</label>
+                    </li>
+                </ul>
             </div>
-            <hr>
             <div class="question">Question
-                <p>1. have</p>
+                <ol>
+                    <li>Have you used ChatGPT in your projects?
+                        <br>
+                        <input type="radio" id="yes" name="1">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="1">
+                        <label for="no">No</label>
+                    </li>
+                    <li>Can ChatGPT replaces human interactions in certain scenarios?
+                        <br>
+                        <input type="radio" id="yes" name="2">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="2">
+                        <label for="no">No</label>
+                    </li>
+                    <li>Would you recommend ChatGPT to other developers?
+                        <br>
+                        <input type="radio" id="yes" name="3">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="3">
+                        <label for="no">No</label>
+                    </li>
+                    <li>Have you used other conversational AI tools
+                        <br>
+                        <input type="radio" id="yes" name="4">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="4">
+                        <label for="no">No</label>
+                    </li>
+                    <li>Rate ChatGPT from average to excellent
+                        <br>
+                        <input type="radio" id="average" name="5">
+                        <label for="average">Average</label>
+                        <input type="radio" id="good" name="5">
+                        <label for="good">Good</label>
+                        <input type="radio" id="very-good" name="5">
+                        <label for="very-good">Very Good</label>
+                        <input type="radio" id="excellent" name="5">
+                        <label for="excellent">Excellent</label>
+                    </li>
+                </ol>
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
             </div>
         </section>
     </div>
